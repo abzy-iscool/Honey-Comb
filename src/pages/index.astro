@@ -1,0 +1,59 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+import Hero from '../components/Hero.astro'
+import Feature from '../components/Feature.astro'
+import Counter from '../components/Counter.astro'
+import ContentMedia from '../components/ContentMedia.astro'
+---
+
+<DefaultLayout title="Home">
+  <Hero />
+  <section class="my-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Savor Nature's Golden Sweetness</h2>
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <Feature icon="mdi:honey-outline" title="Purity">
+          Good honey should be pure, free from additives, and sourced directly from the hive. Purity ensures that the honey retains its natural flavors, aromas, and health benefits. Bees produce honey by collecting nectar from flowers and then processing it in the hive.
+        </Feature>
+        <Feature icon="mdi:chart-timeline-variant-shimmer" title="Color Variation">
+          Good honey comes in a range of colors, from light amber to dark brown, depending on the floral sources. The color variation is a visual indicator of the honey's flavor profile and nutrient content.
+        </Feature>
+        <Feature icon="mdi:aroma" title="Aroma">
+          Aromatic compounds contribute significantly to the overall sensory experience of honey. High-quality honey should have a distinct and pleasant aroma that reflects the flowers from which it was derived.
+        </Feature>
+        <Feature icon="mdi:crystal-ball" title="Crystallization Rate">
+          Crystallization is a natural process in honey where glucose molecules form crystals over time. Good honey exhibits a balanced crystallization rate, neither too fast nor too slow. This indicates a stable composition and proper moisture content.
+        </Feature>
+        <Feature icon="mdi:honey-farmer" title="Local Sourcing">
+          Honey sourced locally from trusted beekeepers often reflects the unique flora of the region, offering distinct flavors and aromas. Buying locally also supports sustainable beekeeping practices and reduces the carbon footprint associated with transportation.
+        </Feature>
+        <Feature icon="mdi:access-time" title="Longevity">
+          Good honey has a long shelf life and can remain stable for extended periods without spoiling. Properly stored honey, away from heat and moisture, can last indefinitely. Its natural acidity and low moisture content create an inhospitable environment for bacteria and spoilage organisms, ensuring its longevity and safety for consumption.
+        </Feature>
+      </div>
+    </div>
+  </section>
+  <ContentMedia imgSrc="/non-gmo.png">
+    <h2>Non-GMO Certification</h2>
+    <p class="text-2xl">
+      important certification for honey producers, especially in regions where genetically modified crops are prevalent. Non-GMO certification ensures that the honey is sourced from flowers that have not been genetically modified. This certification provides transparency and reassurance to consumers who may be concerned about the presence of genetically modified organisms in their food
+    </p>
+  </ContentMedia>
+  <ContentMedia imgSrc="/100-organic.png" reverseImg={true}>
+    <h2>Organic Certification</h2>
+    <p class="text-2xl">
+      Organic honey is produced without the use of synthetic pesticides, herbicides, or antibiotics. Farms seeking organic certification must adhere to strict guidelines set by certifying bodies, which typically include requirements for sourcing organic flowers, maintaining natural habitats for bees, and avoiding the use of chemicals in hive management.
+    </p>
+  </ContentMedia>
+  <section class="mb-32 mt-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Traits About Our Produce</h2>
+      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
+        <Counter count="18%" title="Moisture Content"/>
+        <Counter count="3.9" title="pH In Acidity"/>
+        <Counter count="7" title="Grades of Color"/>
+        <Counter count="4" title="Origin and Floral Sources"/>
+      </div>
+    </div>
+  </section>
+</DefaultLayout>

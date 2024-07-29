@@ -1,0 +1,189 @@
+repo_name: abzy-iscool/Honey-Comb
+report_id: 137f0aae2601a7e33404863f007c94a8
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-29T08:17:54+00:00'
+requested_by: abzy-iscool
+provider: github
+branch: main
+detected_tools_count: 14
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 5.4.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb
+  detection_source: Repo Metadata
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: svgo
+  website_url: https://github.com/svg/svgo
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8443/2473585.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.62.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.62.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: svgo
+  description: Nodejs-based tool for optimizing SVG vector graphics files
+  package_url: https://www.npmjs.com/svgo
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/abzy-iscool/Honey-Comb/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Abhishek J
+  last_updated_on: 2024-05-15 15:35:44.000000000 Z
